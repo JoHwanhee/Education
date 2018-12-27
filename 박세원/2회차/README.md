@@ -3,7 +3,7 @@
 2. 장소 : 신촌 르호봇 G캠퍼스
 
 ## 수업내용
-#### Bottle 라이브러리를 활용한 데이터 수집 서버 만들기
+#### Bottle 라이브러리를 활용한 주소록 관리 서버 만들기
 <pre>
 1. 코드리뷰(지난 과제)
 
@@ -11,17 +11,20 @@
 
 3. 코드리뷰 - 주소록 관리 프로그램
 
-4. 파이썬 코딩 컨벤션
+4. Bottle 소개
 
-5. data.go.kr 소개
+5. 주소록 관리 HTTP Server 개발
 
-6. 공공 API로부터 데이터 수집하기
-
-7. Bottle 소개
-
-8. 공공 API부터 받은 데이터 보여주는 HTTP Server 만들기
+6. 포스트맨 소개
 </pre>
+## 숙제
+- 주소록 관리 HTTP Server와 매핑되는 view단 작업
+- MVC, MVP, MVVM, MVT 공부해보기
+- 파이썬 코딩 컨벤션 공부해보기
+
 ## 피드백
+- 파이썬 코딩 컨벤션 적용 필요
+- 작업 시작할 때 UI먼저 생각하는 것이 아닌, Data 먼저 생각하는 습관 필요
 
 ## References
 Bottle Lib  
@@ -32,3 +35,6 @@ https://tutorial.djangogirls.org/ko/django/
 
 파이썬 코딩 컨벤션  
 https://spoqa.github.io/2012/08/03/about-python-coding-convention.html?fbclid=IwAR08dWt5f8faPSgQp3KADzEjWdkfMpkmFLsQgXLYyZUI74i4G8dpQqG61D0
+
+Postman  
+https://www.getpostman.com/
