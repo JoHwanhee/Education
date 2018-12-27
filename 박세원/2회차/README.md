@@ -20,8 +20,6 @@
 7. Bottle 소개
 
 8. 공공 API부터 받은 데이터 보여주는 HTTP Server 만들기
-
-
 </pre>
 ## 피드백
 
