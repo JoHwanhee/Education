@@ -10,4 +10,4 @@
 
 ##  목차
 1. [OT 및 C언어 List 구현](./1회차)
-2. [Stack, Queue 구현](./2회차)
+2. [Double pointer 및 Stack 구현](./2회차)
