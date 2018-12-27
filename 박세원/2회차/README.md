@@ -29,3 +29,6 @@ https://github.com/JoHwanhee/Education.git
 
 Jangogirls Tutorial  
 https://tutorial.djangogirls.org/ko/django/
+
+파이썬 코딩 컨벤션  
+https://spoqa.github.io/2012/08/03/about-python-coding-convention.html?fbclid=IwAR08dWt5f8faPSgQp3KADzEjWdkfMpkmFLsQgXLYyZUI74i4G8dpQqG61D0
