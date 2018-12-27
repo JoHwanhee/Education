@@ -11,16 +11,16 @@
 
 3. 코드리뷰 - 주소록 관리 프로그램
 
-4. 파이썬 코딩 컨벤션
+4. Bottle 소개
 
-5. data.go.kr 소개
+5. 주소록 관리 HTTP Server 개발
 
-6. 공공 API로부터 데이터 수집하기
+6. 포스트맨 소개
 
-7. Bottle 소개
-
-8. 공공 API부터 받은 데이터 보여주는 HTTP Server 만들기
 </pre>
+## 숙제
+주소록 관리 HTTP Server와 매핑되는 view단 작업
+
 ## 피드백
 
 ## References
@@ -32,3 +32,6 @@ https://tutorial.djangogirls.org/ko/django/
 
 파이썬 코딩 컨벤션  
 https://spoqa.github.io/2012/08/03/about-python-coding-convention.html?fbclid=IwAR08dWt5f8faPSgQp3KADzEjWdkfMpkmFLsQgXLYyZUI74i4G8dpQqG61D0
+
+Postman  
+https://www.getpostman.com/
