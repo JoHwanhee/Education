@@ -16,12 +16,15 @@
 5. 주소록 관리 HTTP Server 개발
 
 6. 포스트맨 소개
-
 </pre>
 ## 숙제
-주소록 관리 HTTP Server와 매핑되는 view단 작업
+- 주소록 관리 HTTP Server와 매핑되는 view단 작업
+- MVC, MVP, MVVM, MVT 공부해보기
+- 파이썬 코딩 컨벤션 공부해보기
 
 ## 피드백
+- 파이썬 코딩 컨벤션 적용 필요
+- 작업 시작할 때 UI먼저 생각하는 것이 아닌, Data 먼저 생각하는 습관 필요
 
 ## References
 Bottle Lib  
