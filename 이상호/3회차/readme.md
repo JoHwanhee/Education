@@ -8,13 +8,9 @@
 
 2. git and github 설명
 
-(쉬는시간)
-
 3. Queue 설명
 
 4. Queue 구현
-
-(쉬는시간)
 
 5. Tree 설명
 
