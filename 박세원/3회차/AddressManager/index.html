@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My first Vue app</title>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <br>
+      <h1> {{ message }} </h1>
+      <div>
+        추가 :
+          <input v-model="name" placeholder="Name">
+          <input v-model="number" placeholder="Number">
+          <button v-on:click="add"> add</button>
+      </div>
+      <h3> 주소 목록 </h3>
+      <ul>
+        <li v-for="address in addresses">
+          <b> {{ address.name }} </b> :
+          {{ address.number }}
+        </li>
+      </ul>
+  </div>
+
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        name: '',
+        number: '',
+        addresses: [],
+        message: '주소록 관리 프로그램'
+      },
+      methods: {
+        getData: function() {
+            axios
+              .get('http://127.0.0.1:8080/addresses')
+              .then(response => {
+                this.addresses = response.data["data"];
+                console.log(this.addresses)
+              })
+              .catch(e => {
+                console.log(e)
+              })
+        },
+        add: function() {
+            axios
+              .post('http://127.0.0.1:8080/addresses', {
+                  "name": this.name,
+                  "number": this.number
+              })
+              .then(response => {
+                console.log(response.data)
+              })
+              .catch(e => {
+                console.log(e)
+              })
+
+          this.name = ''
+          this.number = ''
+          this.getData()
+        }
+      },
+      mounted: function() {
+        this.getData()
+      }
+    })
+  </script>
+</body>
+
+</html>
