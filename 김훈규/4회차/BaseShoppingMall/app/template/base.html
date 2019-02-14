@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Shopping Mall | {{ title }} </title>
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <a href="{{ url_for('home.homepage') }}">홈</a>
+            <a href="{{ url_for('items.homepage') }}">상품</a>
+        </div>
+
+        {% block body %}
+        {% endblock %}
+
+        <div id="footer">
+            <p >Copyright &copy; 2019. All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+</html>
