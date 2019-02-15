@@ -41,7 +41,7 @@ namespace FirstExam
 - 어때요? 참 쉽죠??
 
 - ctrl + F5를 눌러서 실행해봅시다!
-![](./img/3.png)
+![](./img/3.jpg)
 
 #### 2. 변수에 대한 개념 익히기
 
