@@ -214,5 +214,8 @@ int[] x = {1, 2, 3, 4, 5};
 
 
 ## 수업 피드백
+- 주 2회 수업으로 결정, 매주 화, 목 13:00~16:00
+- 장소 변경 신촌 -> 약수역
 
 ## 참고 자료
+- http://www.csharpstudy.com/CSharp/CSharp-Intro.aspx
