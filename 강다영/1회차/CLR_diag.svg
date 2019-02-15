@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="999.80078"
+   height="534.27637"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docbase="C:\dok\img"
+   sodipodi:docname="CLR_diag.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 267.13818 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="999.80078 : 267.13818 : 1"
+       inkscape:persp3d-origin="499.90039 : 178.09212 : 1"
+       id="perspective61" />
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow: visible;">
+      <path
+         id="path2953"
+         style="font-size: 12px; fill-rule: evenodd; stroke-width: 0.625; stroke-linejoin: round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="matrix(-1.1, 0, 0, -1.1, -1.1, 0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow: visible;">
+      <path
+         id="path2971"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z "
+         style="fill-rule: evenodd; stroke: black; stroke-width: 1pt; marker-start: none;"
+         transform="matrix(-0.8, 0, 0, -0.8, -10, 0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.50665609"
+     inkscape:cx="526.18109"
+     inkscape:cy="306.70903"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="1052.3622px"
+     height="744.09448px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="948"
+     inkscape:window-height="720"
+     inkscape:window-x="10"
+     inkscape:window-y="37"
+     showgrid="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-16.8382, -197.341)">
+    <text
+       xml:space="preserve"
+       style="font-size: 25.9138px; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: black; fill-opacity: 1; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; font-family: Tahoma;"
+       x="47.3508"
+       y="217.03"
+       id="text1872"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan1874"
+         x="47.3508"
+         y="217.03">Source code</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size: 25.9138px; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: black; fill-opacity: 1; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; font-family: Tahoma;"
+       x="461.548"
+       y="217.03"
+       id="text1876"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan1878"
+         x="461.548"
+         y="217.03">Bytecode</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size: 25.9138px; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: black; fill-opacity: 1; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; font-family: Tahoma;"
+       x="862.442"
+       y="217.03"
+       id="text1880"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan1882"
+         x="862.442"
+         y="217.03">Native code</tspan></text>
+    <rect
+       style="font-size: 32px; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: white; stroke: navy; stroke-width: 1.26363; font-family: Tahoma;"
+       id="rect1888"
+       width="152.48927"
+       height="98.268707"
+       x="34.901501"
+       y="259.56375" />
+    <text
+       xml:space="preserve"
+       style="font-size: 22.5795px; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: black; fill-opacity: 1; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; font-family: Tahoma;"
+       x="90.3151"
+       y="318.118"
+       id="text1894"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan1896"
+         x="90.3151"
+         y="318.118">C#</tspan></text>
+    <rect
+       y="377.18069"
+       x="32.716236"
+       height="98.268707"
+       width="152.48927"
+       id="rect1898"
+       style="font-size: 32px; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: white; stroke: navy; stroke-width: 1.26363; font-family: Tahoma;" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text1900"
+       y="435.735"
+       x="65.3983"
+       style="font-size: 22.5795px; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: black; fill-opacity: 1; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; font-family: Tahoma;"
+       xml:space="preserve"><tspan
+         y="435.735"
+         x="65.3983"
+         id="tspan1902"
+         sodipodi:role="line">VB.NET</tspan></text>
+    <rect
+       style="font-size: 32px; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: white; stroke: navy; stroke-width: 1.26363; font-family: Tahoma;"
+       id="rect1904"
+       width="152.48927"
+       height="98.268707"
+       x="30.530979"
+       y="500.20535" />
+    <text
+       xml:space="preserve"
+       style="font-size: 22.5795px; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: black; fill-opacity: 1; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; font-family: Tahoma;"
+       x="44.7758"
+       y="540.312"
+       id="text1906"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan1908"
+         x="44.7758"
+         y="540.312">Other .NET </tspan><tspan
+         sodipodi:role="line"
+         x="44.7758"
+         y="568.536"
+         id="tspan1910">language</tspan></text>
+    <rect
+       style="opacity: 1; fill: white; stroke: navy; stroke-width: 0.716823;"
+       id="rect2987"
+       width="210.05852"
+       height="351.47415"
+       x="409.37781"
+       y="247.14333" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2993"
+       y="431.265"
+       x="454.629"
+       style="font-size:22.57949999999999946px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Tahoma;writing-mode:lr"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan2434">CIL code</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size: 22.5795px; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: black; fill-opacity: 1; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; font-family: Tahoma;"
+       x="849.084"
+       y="432.503"
+       id="text3007"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3009"
+         x="849.084"
+         y="432.503">Native code</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3011"
+       y="531.012"
+       x="210.087"
+       style="font-size: 22.5795px; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: black; fill-opacity: 1; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; font-family: Tahoma;"
+       xml:space="preserve"><tspan
+         y="531.012"
+         x="210.087"
+         id="tspan3013"
+         sodipodi:role="line">Other compiler</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size: 22.5795px; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: black; fill-opacity: 1; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; font-family: Tahoma;"
+       x="201.622"
+       y="408.646"
+       id="text3015"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3017"
+         x="201.622"
+         y="408.646">VB.NET compiler</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3027"
+       y="291.71"
+       x="226.713"
+       style="font-size: 22.5795px; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: black; fill-opacity: 1; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; font-family: Tahoma;"
+       xml:space="preserve"><tspan
+         y="291.71"
+         x="226.713"
+         id="tspan3029"
+         sodipodi:role="line">C# compiler</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3052"
+       y="408.646"
+       x="708.146"
+       style="font-size: 22.5795px; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: black; fill-opacity: 1; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; font-family: Tahoma;"
+       xml:space="preserve"><tspan
+         y="408.646"
+         x="708.146"
+         id="tspan3054"
+         sodipodi:role="line">CLR</tspan></text>
+    <path
+       style="fill: none; fill-rule: evenodd; stroke: black; stroke-width: 1.02634px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1;"
+       d="M 17.920891,684.57451 L 1016.1258,684.57451"
+       id="path3067" />
+    <path
+       style="fill: none; fill-rule: evenodd; stroke: black; stroke-width: 1.02634px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1;"
+       d="M 18.677573,666.74942 L 18.677573,704.77627 L 17.351357,702.4792"
+       id="path3069" />
+    <g
+       id="g3096"
+       transform="matrix(1.02634, 0, 0, 1.02634, -8.65423, -9.00705)">
+      <path
+         style="fill: none; fill-rule: evenodd; stroke: black; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1;"
+         d="M 507.13484,658.41417 L 507.13484,695.46511 L 505.84266,693.22699"
+         id="path3071" />
+      <path
+         id="path3073"
+         d="M 998.0599,658.41417 L 998.0599,695.46511 L 996.76772,693.22699"
+         style="fill: none; fill-rule: evenodd; stroke: black; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1;" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size: 25.9138px; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: black; fill-opacity: 1; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; font-family: Tahoma;"
+       x="189.852"
+       y="726.404"
+       id="text3079"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3081"
+         x="189.852"
+         y="726.404">Compile time</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3086"
+       y="725.683"
+       x="714.977"
+       style="font-size: 25.9138px; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; text-align: start; line-height: 125%; text-anchor: start; fill: black; fill-opacity: 1; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; font-family: Tahoma;"
+       xml:space="preserve"><tspan
+         y="725.683"
+         x="714.977"
+         id="tspan3088"
+         sodipodi:role="line">Runtime</tspan></text>
+    <g
+       id="g3137"
+       transform="matrix(1.02634, 0, 0, 1.02634, -8.65423, -9.00705)">
+      <path
+         id="path1912"
+         d="M 189.58197,309.06781 L 402.63015,309.06781"
+         style="fill: none; fill-rule: evenodd; stroke: black; stroke-width: 3.20923px; stroke-linecap: butt; stroke-linejoin: miter; marker-end: none; stroke-opacity: 1;" />
+      <path
+         transform="matrix(0.695316, 0, 0, 0.668213, 403.435, 95.1153)"
+         d="M 2.7616177,320.18613 L -32.44901,340.51499 L -32.449008,299.85726 L 2.7616177,320.18613 z "
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.0471976"
+         sodipodi:arg1="2.9948046e-008"
+         sodipodi:r2="26.74939"
+         sodipodi:r1="23.473751"
+         sodipodi:cy="320.18613"
+         sodipodi:cx="-20.712133"
+         sodipodi:sides="3"
+         id="path3127"
+         style="opacity: 1; fill: black; stroke: white;"
+         sodipodi:type="star" />
+    </g>
+    <g
+       id="g3133"
+       transform="matrix(1.02634, 0, 0, 1.02634, -8.65423, 106.134)">
+      <path
+         style="fill: none; fill-rule: evenodd; stroke: black; stroke-width: 3.20923px; stroke-linecap: butt; stroke-linejoin: miter; marker-end: none; stroke-opacity: 1;"
+         d="M 189.58197,309.06781 L 402.63015,309.06781"
+         id="path3129" />
+      <path
+         sodipodi:type="star"
+         style="opacity: 1; fill: black; stroke: white;"
+         id="path3131"
+         sodipodi:sides="3"
+         sodipodi:cx="-20.712133"
+         sodipodi:cy="320.18613"
+         sodipodi:r1="23.473751"
+         sodipodi:r2="26.74939"
+         sodipodi:arg1="2.9948046e-008"
+         sodipodi:arg2="1.0471976"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M 2.7616177,320.18613 L -32.44901,340.51499 L -32.449008,299.85726 L 2.7616177,320.18613 z "
+         transform="matrix(0.695316, 0, 0, 0.668213, 403.435, 95.1153)" />
+    </g>
+    <g
+       id="g3141"
+       transform="matrix(1.02634, 0, 0, 1.02634, -8.65423, 234.112)">
+      <path
+         style="fill: none; fill-rule: evenodd; stroke: black; stroke-width: 3.20923px; stroke-linecap: butt; stroke-linejoin: miter; marker-end: none; stroke-opacity: 1;"
+         d="M 189.58197,309.06781 L 402.63015,309.06781"
+         id="path3143" />
+      <path
+         sodipodi:type="star"
+         style="opacity: 1; fill: black; stroke: white;"
+         id="path3145"
+         sodipodi:sides="3"
+         sodipodi:cx="-20.712133"
+         sodipodi:cy="320.18613"
+         sodipodi:r1="23.473751"
+         sodipodi:r2="26.74939"
+         sodipodi:arg1="2.9948046e-008"
+         sodipodi:arg2="1.0471976"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M 2.7616177,320.18613 L -32.44901,340.51499 L -32.449008,299.85726 L 2.7616177,320.18613 z "
+         transform="matrix(0.695316, 0, 0, 0.668213, 403.435, 95.1153)" />
+    </g>
+    <g
+       transform="matrix(1.02634, 0, 0, 1.02634, 426.42, 106.134)"
+       id="g3147">
+      <path
+         id="path3149"
+         d="M 189.58197,309.06781 L 402.63015,309.06781"
+         style="fill: none; fill-rule: evenodd; stroke: black; stroke-width: 3.20923px; stroke-linecap: butt; stroke-linejoin: miter; marker-end: none; stroke-opacity: 1;" />
+      <path
+         transform="matrix(0.695316, 0, 0, 0.668213, 403.435, 95.1153)"
+         d="M 2.7616177,320.18613 L -32.44901,340.51499 L -32.449008,299.85726 L 2.7616177,320.18613 z "
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.0471976"
+         sodipodi:arg1="2.9948046e-008"
+         sodipodi:r2="26.74939"
+         sodipodi:r1="23.473751"
+         sodipodi:cy="320.18613"
+         sodipodi:cx="-20.712133"
+         sodipodi:sides="3"
+         id="path3151"
+         style="opacity: 1; fill: black; stroke: white;"
+         sodipodi:type="star" />
+    </g>
+  </g>
+</svg>

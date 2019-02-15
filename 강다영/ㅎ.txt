@@ -1,0 +1,47 @@
+컴퓨터 - hw, sw
+
+OSI7 Layer가 이해 되나요?
+
+개념적 이해가 중요합ㄷ니다.
+
+컴퓨터(국가)
+
+Layerd의 이해
+
+선 두개 긋고 (국가가 성립하려면)
+
+정부
+영토
+
+상해 임시정부 이야기
+
+국민
+집
+
+집끼리 간섭, 무단 친입
+
+빈 공간 ( 공무원 )
+
+정부기관(합법적으로 다른 집 간섭)
+Process + Virtual Memory
+User / Service                - O      - Platform
+Kernal                        - S      - Platform
+S/W                                    - Platform
+H/W                                    - Platform
+
+CPU -> 머신
+
+정부기관 -> 디버거
+
+Process : 주체 create / open read / write delete / close
+(file)  : 대상체
+구성요소 
+Driver
+Device
+
+Process와 File끼리 주고 받는 형식이 Protocol
+
+구성요소와 Driver 사이에 filter
+
+Usermode의 App이 구성요소와 통신하기 위한 추상적인 인터페이스!!!!!!!!!!
+fopen("", "")
