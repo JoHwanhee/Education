@@ -1,22 +1,17 @@
 from flask import render_template
 from . import items
-
-my_items = [
-    {
-        "name": "가디건",
-        "caption": "초특가!",
-        "price": "10,000원",
-        "url": "/static/img/sample.jpg",
-    },
-    {
-        "name": "청바지",
-        "caption": "초특가!",
-        "price": "15,000원",
-        "url": "/static/img/sample.jpg",
-    },
-]
+from pymongo import MongoClient
+client = MongoClient("mongodb://mongouser:mongouser@"
+                     "cluster0-shard-00-00-llkya.mongodb.net:27017,"
+                     "cluster0-shard-00-01-llkya.mongodb.net:27017,"
+                     "cluster0-shard-00-02-llkya.mongodb.net:27017"
+                     "/BaseShoppingMall?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true")
 
 
 @items.route('/')
 def homepage():
-    return render_template('/items/index.html', title="Welcome", items=my_items)
+    baseShoppingMall = client["BaseShoppingMall"]
+    items = baseShoppingMall["Items"]
+    foundItems = items.find({})
+
+    return render_template('/items/index.html', title="Welcome", items=foundItems)
