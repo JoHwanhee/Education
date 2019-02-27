@@ -77,3 +77,8 @@
             PeopleListView.EndUpdate();
         }
 ```
+
+11. 마찬가지로 빌드(ctrl+shift+b)를 해보고 실행(ctrl+f5)을 해봅니다.  
+![](./img/12.jpg)
+![](./img/13.jpg)
+
