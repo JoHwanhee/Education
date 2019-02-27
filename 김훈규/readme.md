@@ -10,5 +10,5 @@
 1. [OT 및 HTML + CSS로 웹 페이지 만들어보기](./1회차)
 2. 파이썬 기본 문법 수업
 3. 웹 서버의 기본 구조 배우기
-4. Flask를 통해 쇼핑몰 만들어보기
-5. MongoDB로 쇼핑몰에 DB를 추가해보기
+4. [Flask를 통해 쇼핑몰 만들어보기](./https://github.com/JoHwanhee/Education/tree/master/%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C/%ED%8C%8C%EC%9D%B4%EC%8D%AC)
+5. [MongoDB로 쇼핑몰에 DB를 추가해보기](./https://github.com/JoHwanhee/Education/tree/master/%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C/%ED%8C%8C%EC%9D%B4%EC%8D%AC)
