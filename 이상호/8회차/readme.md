@@ -11,7 +11,7 @@
 
 3. 같은 문자가 연속으로 발복될 경우 그 횟수를 이용해 압축하는 함수를 구현하라.
 
-```
+```c
 code : 
 char* zipMessage = zip("aaaabbbbc");
 printf("%s", zipMessage);
