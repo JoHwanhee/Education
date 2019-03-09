@@ -21,3 +21,14 @@ a4b4c1
 ```
 
 4. n개의 계단을 아이가 오른다. 한 번에 1계단을 오르기도하고 2계단, 3계단씩 오르기도한다. 경우의 수를 구하는 함수를 구현하라.
+
+```
+int climb(int n){
+  if( n == 0 )
+    return 1;
+    
+  return climb(n - 1) + climb(n - 2) + climb(n - 3);
+}
+
+printf("%d", climb(5));
+```
