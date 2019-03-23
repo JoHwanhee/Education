@@ -46,3 +46,21 @@ class scheduler:
 
 	def add_schedule(self, schedule):
 		self.scheduleList.append(schedule)
+		
+		
+class movie:
+	def __init__(self, title, time, room):
+		self.title = title
+		self.time = time
+		self.room = room
+	
+	def get_dict(self):
+		return { 
+				"title": self.title,
+				"time": self.time,
+				"room": self.room
+			}
+
+class movieUtil:
+	def parse(self, dict):
+		return movie(dict["title"], dict["time"], dict["room"])
