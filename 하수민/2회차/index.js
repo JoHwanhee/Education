@@ -1,39 +1,62 @@
-const express = require('express')
-const path = require('path');
-const app = express()
-const bodyParser = require('body-parser');
+import express from 'express'
+import bodyParser from 'body-parser';
 
+import path from 'path'
+import wines from './models/wine.js'
+import { addUser, getUser } from './models/user.js';
+
+
+const __dirname = path.resolve();
+const app = express()
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const wines = {
-    "10": {
-        wine_name: "아주아주 달콤한 와인 - 10"
-    },
-    "9898": {
-        wine_name: "아주아주 맛있느 와인 - 9898"
-    },
-}
+// 가입
+app.get('/signup', (req, res) => {
+    res.render('signup');
+});
 
+app.post('/signup', (req, res) => {
+    // console.log(req.body);
+    // addUser(req.body.user_id, req.body.user_pw, req.body.user_name, '', '')
+    
+    
+    // const body = req.body
+    // addUser(body.user_id, body.user_pw, body.user_name, '', '')
+
+    const {
+        user_id, user_pw, user_name
+    } = req.body
+    addUser(user_id, user_pw, user_name, '', '')
+
+    res.render('login');
+});
+
+
+// login
 app.get('/login', (req, res) => {
     res.render('login');
 });
 
-app.post('/login', function(req, res) {
-    const userId = req.body.user_id;
-    const userPw = req.body.user_pw;
+app.post('/login', (req, res) => {
+    const {
+        user_id, user_pw
+    } = req.body
 
-    console.log('Received ID:', userId);
-    console.log('Received PW:', userPw);
-
-    res.redirect('/');
+    const user = getUser(user_id)
+    if (user.password === user_pw) {
+        res.render('wine');
+    }
+    else {
+        res.render('error');
+    }    
 });
 
+
 app.get('/wine', (req, res) => {
-    const wine_id = req.query.id
-    res.render('wine', wines[wine_id]);
+    res.render('wine');
 });
 
 app.listen(3000, () => {
